@@ -1,0 +1,86 @@
+PHARMA_CREAM_DEXERYL1,DEXERYL,Emollient cream dry skin,995,FALSE,0,Cream,50,France
+PHARMA_CREAM_DEXERYL2,DEXERYL,Emollient cream dry skin,2495,FALSE,0,Cream,500,France
+PHARMA_CREAM_AVENE1,Avene,XeraCalm A.D.,3995,FALSE,0,Cream,400,France
+PHARMA_CREAM_AVENE2,Avene,Cicalfate,1495,FALSE,0,Cream,40,France
+PHARMA_CREAM_JOHNPLUNKETT1,John Plunkett,Facial Cleanser & Makup Remover,995,FALSE,0,Cosmetics,100,Australia
+PHARMA_CREAM_JOHNPLUNKETT2,John Plunkett,Super Fade,2495,FALSE,0,Cream,60,Australia
+PHARMA_CREAM_MOOGOO1,MooGoo,Mudder Udder Balm,1295,FALSE,0,Cream,50,Australia
+PHARMA_CREAM_MOOGOO2,MooGoo,Scalp Cream,1795,FALSE,0,Cream,120,Australia
+PHARMA_CREAM_MOOGOO3,MooGoo,Scalp Cream,2495,FALSE,0,Cream,200,Australia
+PHARMA_CREAM_MOOGOO4,MooGoo,Natural Happy Balm,1495,FALSE,0,Cream,75,Australia
+PHARMA_CREAM_MOOGOO5,MooGoo,Natural Skin Milk Udder Cream,1795,FALSE,0,Cream,200,Australia
+PHARMA_CREAM_MOOGOO6,MooGoo,Natural Mini Moo Bubbly Wash,1795,FALSE,0,Cosmetics,500,Australia
+PHARMA_CREAM_MOOGOO7,MooGoo,Natural Milk Wash,1795,FALSE,0,Cosmetics,500,Australia
+PHARMA_CREAM_MOOGOO8,MooGoo,Natural Cream Conditioner,1795,FALSE,0,Cosmetics,500,Australia
+PHARMA_CREAM_MOOGOO9,MooGoo,Natural Milk Shampoo,1795,FALSE,0,Cosmetics,500,Australia
+PHARMA_SANITISER_GEL1,Hand Sanitiser Gel,75% Alcohol disinfectant,1500,FALSE,75,Hand Sanitiser,250,China
+PHARMA_SANITISER_GEL2,2x Hand Sanitiser Gel,75% Alcohol disinfectant,2500,FALSE,75,Hand Sanitiser,250,China
+PHARMA_CREAM_AVENE3,Avene,Thermal Spring Water,995,FALSE,0,Cosmetics,50,France
+PHARMA_CREAM_AVENE4,Avene,Thermal Spring Water,1495,FALSE,0,Cosmetics,150,France
+PHARMA_CREAM_AVENE5,Avene,Thermal Spring Water,1995,FALSE,0,Cosmetics,300,France
+PHARMA_CREAM_PINETARSOL1,ego naturals,Pinetarsol,995,FALSE,0,Gel,100,Australia
+PHARMA_CREAM_QV1,ego QV,Flare up,1295,FALSE,0,Cream,100,Australia
+PHARMA_CREAM_QV2,ego QV,Replenishes dry skin,3495,FALSE,0,Cream,1000,Australia
+PHARMA_CREAM_QV3,ego QV,Replenishes dry skin,1995,FALSE,0,Cream,500,Australia
+PHARMA_CREAM_QV4,ego QV,For very dry skin,795,FALSE,0,Cream,100,Australia
+PHARMA_CREAM_QV5,ego QV,Replenishes dry skin,795,FALSE,0,Cream,100,Australia
+PHARMA_CREAM_QV6,ego QV,Bath Oil,995,FALSE,0,Cosmetics,250,Australia
+PHARMA_CREAM_QV7,ego QV,Skin Lotion,995,FALSE,0,Cosmetics,250,Australia
+PHARMA_CREAM_QV8,ego QV,Wash,995,FALSE,0,Cosmetics,250,Australia
+PHARMA_CREAM_QV9,ego QV,Skin Lotion,2495,FALSE,0,Cosmetics,1000,Australia
+PHARMA_CREAM_QV10,ego QV,Gentle Wash,2495,FALSE,0,Cosmetics,1000,Australia
+PHARMA_CREAM_BIOCEUTICALS1,BioCeuticals,Ultra Muscleze Cream,1995,FALSE,0,Cream,100,Australia
+PHARMA_CREAM_E451,E45,Moisturising Lotion,1295,FALSE,0,Cosmetics,200,France
+PHARMA_CREAM_E452,E45,Dermatological Cream,695,FALSE,0,Cream,50,France
+PHARMA_CREAM_PALMERS1,Palmer's,Cocoa Butter Formula,995,FALSE,0,Cosmetics,100,USA
+PHARMA_CREAM_PALMERS2,Palmer's,Moisturising Body Oil,995,FALSE,0,Cosmetics,250,USA
+PHARMA_CREAM_SEBAMED1,SebaMed,Moisturising Body Lotion,995,FALSE,0,Cosmetics,200,Australia
+PHARMA_CREAM_CETAPHIL1,Cetaphil,DailyAdvance Ultra Hydrating Lotion,995,FALSE,0,Cosmetics,85,Canada
+PHARMA_CREAM_CETAPHIL2,Cetaphil,Moisturising Cream,995,FALSE,0,Cream,100,Canada
+PHARMA_CREAM_CETAPHIL3,Cetaphil,Moisturising Lotion,2495,FALSE,0,Cosmetics,1000,Canada
+PHARMA_CREAM_CETAPHIL4,Cetaphil,Moisturising Lotion,1695,FALSE,0,Cosmetics,500,Canada
+PHARMA_CREAM_CETAPHIL5,Cetaphil,Moisturising Lotion,1295,FALSE,0,Cosmetics,250,Canada
+PHARMA_CREAM_CETAPHIL6,Cetaphil,Gentle Skin Cleanser,2495,FALSE,0,Cosmetics,1000,Canada
+PHARMA_CREAM_CETAPHIL7,Cetaphil,Gentle Skin Cleanser,1295,FALSE,0,Cosmetics,250,Canada
+PHARMA_CREAM_CETAPHIL8,Cetaphil,Gentle Skin Cleanser,995,FALSE,0,Cosmetics,125,Canada
+PHARMA_CREAM_AVEENO1,Aveeno,Daily Moisturising Lotion,495,FALSE,0,Cosmetics,71,USA
+PHARMA_CREAM_AVEENO2,Aveeno,Dermexa Moisturising Wash,1495,FALSE,0,Baby Products,236,USA
+PHARMA_CREAM_AVEENO3,Aveeno,Dermexa Moisturising Cream,2195,FALSE,0,Baby Products,206,USA
+PHARMA_CREAM_SUKIN1,Sukin,Hydrating Body Lotion,995,FALSE,0,Cosmetics,250,Australia
+PHARMA_CREAM_SUKIN2,Sukin,Hydrating Body Lotion Lime And Coconut,1495,FALSE,0,Cosmetics,500,Australia
+PHARMA_CREAM_SUKIN3,Sukin,Hydrating Body Lotion Signature Scent,1495,FALSE,0,Cosmetics,500,Australia
+PHARMA_CREAM_NIVEA1,Nivea,Refreshingly Soft Moisturising Cream with Jojoba Oil and Vitamin E,595,FALSE,0,Cream,75,Spain
+PHARMA_CREAM_NIVEA2,Nivea,Refreshingly Soft Moisturising Cream,995,FALSE,0,Cream,200,Germany
+PHARMA_CREAM_NIVEA3,Nivea,Refreshingly Soft Moisturising Cream,895,FALSE,0,Cream,150,Germany
+PHARMA_CREAM_NIVEA4,Nivea,Body Lotion Rich Nourishing,595,FALSE,0,Cosmetics,250,Germany
+PHARMA_CREAM_NIVEA5,Nivea,Oil in Lotion Rose and Argan Oil,995,FALSE,0,Cosmetics,400,Germany
+PHARMA_CREAM_NIVEA6,Nivea,Body Lotion Rich Nourishing,895,FALSE,0,Cosmetics,400,Germany
+PHARMA_CREAM_NIVEA7,Nivea,Body Lotion Express Hydration,895,FALSE,0,Cosmetics,400,Germany
+PHARMA_CREAM_DERMEZE1,Dermeze,Moisturising Soap Free Wash,2495,FALSE,0,Cosmetics,1000,Australia
+PHARMA_CREAM_DERMEZE2,Dermeze,Treatment Cream,1495,FALSE,0,Cream,500,Australia
+PHARMA_CREAM_DERMEZE3,Dermeze,Treatment Cream,895,FALSE,0,Cream,100,Australia
+PHARMA_CREAM_DERMEZE4,Dermeze,Treatment Ointment,1495,FALSE,0,Cosmetics,500,Australia
+PHARMA_CREAM_AVEENO4,Aveeno,Skin Relief Moisturising Lotion,1295,FALSE,0,Cosmetics,225,USA
+PHARMA_CREAM_AVEENO5,Aveeno,Stress Relief Moisturising Lotion,1295,FALSE,0,Cosmetics,354,USA
+PHARMA_CREAM_AVEENO6,Aveeno,Skin Relief Moisturising Lotion,1295,FALSE,0,Cosmetics,354,USA
+PHARMA_CREAM_AVEENO7,Aveeno,Daily Moisturising Lotion,1295,FALSE,0,Cosmetics,354,USA
+PHARMA_CREAM_AVEENO8,Aveeno,Daily Moisturising Lotion,2495,FALSE,0,Cosmetics,1000,USA
+PHARMA_CREAM_AVEENO9,Aveeno,Daily Moisturising Body Wash,2495,FALSE,0,Cosmetics,1000,USA
+PHARMA_CREAM_VASELINE1,Vaseline,Intensive Care Cocoa Glow With Pure Cocoa Butter,495,FALSE,0,Cosmetics,225,Thailand
+PHARMA_CREAM_VASELINE2,Vaseline,Intensive Care Aloe Soothe,595,FALSE,0,Cosmetics,225,Thailand
+PHARMA_CREAM_VASELINE3,Vaseline,Intensive Care Aloe Soothe,995,FALSE,0,Cosmetics,400,Thailand
+PHARMA_CREAM_PRICKLYHEAT1,Prickly Heat Powder,Zinc Oxide 250mg/g,995,FALSE,0,Cosmetics,150,Australia
+PHARMA_CREAM_THURSDAYPLANTATION1,Thursday Plantation,Lavender Spray Calming,1295,FALSE,0,Cosmetics,140,Australia
+PHARMA_CREAM_DOVE1,Dove,Beauty Creme,395,FALSE,0,Cream,75,Argentina
+PHARMA_CREAM_DOVE2,Dove,Intensive-Cream,395,FALSE,0,Cream,75,Argentina
+PHARMA_CREAM_GOLDCROSS1,Gold Cross,Calamine Lotion,1295,FALSE,0,Cosmetics,200,Australia
+PHARMA_CREAM_THURSDAYPLANTATION2,Thursday Plantation,Tea Tree Body Wash,1295,FALSE,0,Cosmetics,200,Australia
+PHARMA_CREAM_THURSDAYPLANTATION3,Thursday Plantation,Tea Tree Hand and Body Lotion,1295,FALSE,0,Cosmetics,200,Australia
+PHARMA_CREAM_DERMAVEEN1,DermaVeen,Eczema Cream,995,FALSE,0,Cream,100,Australia
+PHARMA_CREAM_DERMAVEEN2,DermaVeen,Moisturising Cream,995,FALSE,0,Cream,100,Australia
+PHARMA_CREAM_DERMAVEEN3,DermaVeen,Moisturising Lotion,1295,FALSE,0,Cosmetics,250,Australia
+PHARMA_CREAM_DERMAVEEN4,DermaVeen,Soap-Free Wash,995,FALSE,0,Cosmetics,250,Australia
+PHARMA_CREAM_DERMAVEEN5,DermaVeen,Soap-Free Wash,995,FALSE,0,Cosmetics,250,Australia
+PHARMA_CREAM_DERMAVEEN6,DermaVeen,Soap-Free Wash,1695,FALSE,0,Cosmetics,500,Australia
+PHARMA_CREAM_DERMAVEEN7,DermaVeen,Moisturising Lotion,1495,FALSE,0,Cosmetics,500,Australia
+PHARMA_CREAM_MELROSE1,Melrose,Organic Full Flavour Coconut Oil,1295,TRUE,0,Cosmetics,380,Australia
