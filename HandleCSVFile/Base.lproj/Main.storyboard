@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fGw-dl-Dpv">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fGw-dl-Dpv">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -45,7 +45,13 @@
                             <outlet property="delegate" destination="EZS-Jy-T4R" id="OiE-Sq-eiv"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="P7v-FY-MFh"/>
+                    <navigationItem key="navigationItem" id="P7v-FY-MFh">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Uia-hB-AfL">
+                            <connections>
+                                <action selector="addFile:" destination="EZS-Jy-T4R" id="nhp-36-zfp"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t3P-u4-S9l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

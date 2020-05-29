@@ -21,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6039E2AA2481625600B46BA8 /* HandleCSVFile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HandleCSVFile.entitlements; sourceTree = "<group>"; };
 		605521372476D51E00A8F5DF /* ProductsData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProductsData.csv; sourceTree = "<group>"; };
 		605521392476D61D00A8F5DF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		6055213A2476D61D00A8F5DF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
@@ -66,6 +67,7 @@
 		60B94C47247257DA00C33D98 /* HandleCSVFile */ = {
 			isa = PBXGroup;
 			children = (
+				6039E2AA2481625600B46BA8 /* HandleCSVFile.entitlements */,
 				605521392476D61D00A8F5DF /* LICENSE */,
 				6055213A2476D61D00A8F5DF /* README.md */,
 				605521372476D51E00A8F5DF /* ProductsData.csv */,
@@ -304,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HandleCSVFile/HandleCSVFile.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R778NCA656;
 				INFOPLIST_FILE = HandleCSVFile/Info.plist;
@@ -322,6 +325,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HandleCSVFile/HandleCSVFile.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R778NCA656;
 				INFOPLIST_FILE = HandleCSVFile/Info.plist;

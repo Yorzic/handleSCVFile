@@ -7,25 +7,20 @@
 //
 
 import UIKit
+import MobileCoreServices
 
-class ViewController: UITableViewController {
+class ViewController: UITableViewController, UIDocumentPickerDelegate, UINavigationControllerDelegate {
     
-    let fileName = "ProductsData"
-    let fileExtension = "csv"
     var cells: [[String]]?
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.register(UINib(nibName: "DataCell", bundle: nil), forCellReuseIdentifier: "DataCell")
-        
         self.title = "CSV Data"
-
-        if let data = handleCSVFile(name: fileName, extension: fileExtension) {
-            cells = data
-            tableView.reloadData()
-        }
+        
+        tableView.register(UINib(nibName: "DataCell", bundle: nil), forCellReuseIdentifier: "DataCell")
+                
+        selectFile()
     }
 
     // MARK: - Table view data source
@@ -59,50 +54,76 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
     }
+    
+    @IBAction func addFile(_ sender: UIBarButtonItem) {
+        selectFile()
+    }
+}
 
-    func handleCSVFile(name: String, extension: String) -> [[String]]? {
-        if let documents = Bundle.main.urls(forResourcesWithExtension: fileExtension, subdirectory: nil) {
-            if let data = try? String(contentsOf: documents[0]) {
-                var result: [[String]] = []
-                let rows = data.components(separatedBy: "\r\n")
-                for row in rows {
-                    let columns = row.components(separatedBy: ",")
-                    var cells: [String] = []
-                    
-                    for item in columns {
-                        let cell = item.replacingOccurrences(of: "\"", with: "", options: NSString.CompareOptions.literal, range:nil)
-                        if cell != "" {
-                            cells.append(cell)
-                        }
-                    }
-                    
-                    // Only append the array if it's not empty
-                    if cells != [] {
-                        result.append(cells)
-                        print(cells)
+// Document Picker
+extension ViewController {
+    public func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]) {
+        guard let myURL = urls.first else {
+           return
+        }
+        print("import result : \(myURL)")
+        if let data = handleCSVFile(url: myURL) {
+            cells = data
+            tableView.reloadData()
+        }
+    }
+
+    func documentPickerWasCancelled(_ controller: UIDocumentPickerViewController) {
+        print("view was cancelled")
+        dismiss(animated: true, completion: nil)
+    }
+    
+    func selectFile() {
+        let importMenu = UIDocumentPickerViewController(documentTypes: [(kUTTypeCommaSeparatedText as String)], in: .import)
+        importMenu.delegate = self
+        importMenu.modalPresentationStyle = .formSheet
+        self.present(importMenu, animated: true, completion: nil)
+    }
+}
+
+// Utilities
+extension UIViewController {
+    func handleCSVFile(url: URL) -> [[String]]? {
+        if let data = try? String(contentsOf: url) {
+            var result: [[String]] = []
+            let rows = data.components(separatedBy: "\r\n")
+            for row in rows {
+                let columns = row.components(separatedBy: ",")
+                var cells: [String] = []
+                
+                for item in columns {
+                    let cell = item.replacingOccurrences(of: "\"", with: "", options: NSString.CompareOptions.literal, range:nil)
+                    if cell != "" {
+                        cells.append(cell)
                     }
                 }
                 
-                // Double check that the array doesn't contain any empty entries
-                for i in 0 ..< result.count {
-                    if result[i] == [] {
-                        result.remove(at: i)
-                    }
+                // Only append the array if it's not empty
+                if cells != [] {
+                    result.append(cells)
+                    print(cells)
                 }
-                
-                print(result.last!)
-                return result
-            } else {
-                return nil
             }
+            
+            // Double check that the array doesn't contain any empty entries
+            for i in 0 ..< result.count {
+                if result[i] == [] {
+                    result.remove(at: i)
+                }
+            }
+            
+            print(result.last!)
+            return result
         } else {
             return nil
         }
     }
     
-}
-
-extension UIViewController {
     func priceToString(_ priceInCents: Int, currency: String = "$") -> [String] {
         var arrayOfValues = [String]()
         var totalString = ""
